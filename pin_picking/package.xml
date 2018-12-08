@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+	<name>pin_picking</name>
+	<version>1.0.0</version>
+	<description>Locate and pick up retro-reflective pins.</description>
+
+	<maintainer email="tes77@case.edu">Tom Shkurti</maintainer>
+	<author email="tes77@case.edu">Tom Shkurti</author>
+
+	<license>GPLv3</license>
+
+	<buildtool_depend>catkin</buildtool_depend>
+	
+	<build_depend>roscpp</build_depend>
+	<build_depend>roslib</build_depend>
+	<build_depend>uv_control</build_depend>
+	<build_depend>cwru_davinci_white_tracker</build_depend>
+	<!--build_depend>roslint</build_depend-->
+	<!--build_depend>cwru_davinci_kinematics</build_depend-->
+	<!--build_depend>cwru_davinci_control</build_depend-->
+	
+	<run_depend>roscpp</run_depend>
+	<run_depend>roslib</run_depend>
+	<run_depend>uv_control</run_depend>
+	<run_depend>cwru_davinci_white_tracker</run_depend>
+	<!--run_depend>roslint</run_depend>
+	<run_depend>cwru_davinci_kinematics</run_depend>
+	<run_depend>cwru_davinci_control</run_depend-->
+
+	<export></export>
+</package>
